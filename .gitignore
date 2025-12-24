@@ -1,0 +1,35 @@
+# --- Java Compiled Files ---
+*.class
+*.war
+*.ear
+*.jar
+
+# --- Build Folders ---
+target/
+bin/
+build/
+out/
+
+# --- IDE Specific Files (Eclipse, IntelliJ, VS Code) ---
+.settings/
+.project
+.classpath
+.factorypath
+.idea/
+*.iml
+*.iws
+.vscode/
+.nb-configuration.xml
+nbproject/
+
+# --- Database & Sensitive Info ---
+# If you store DB credentials in a properties file, ignore it 
+# and use a template (e.g., db.properties.example) instead.
+db.properties
+config.properties
+*.log
+*.sql
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+ 	 <!-- instead of this we use annotations -->
+ 	<!-- <servlet>
+ 		<servlet-name>abc</servlet-name>
+ 		<servlet-class>com.demo_app.AddServlet</servlet-class>
+ 	</servlet>
+ 	<servlet-mapping>
+ 		<servlet-name>abc</servlet-name>
+ 		<url-pattern>/add</url-pattern>
+ 	</servlet-mapping>
+ 	
+ 	<servlet>
+ 		<servlet-name>pqr</servlet-name>
+ 		<servlet-class>com.demo_app.SqServlet</servlet-class>
+ 	</servlet>
+ 	<servlet-mapping>
+ 		<servlet-name>pqr</servlet-name>
+ 		<url-pattern>/sq</url-pattern>
+ 	</servlet-mapping>
+ 	
+ 	<servlet>
+ 		<servlet-name>hom</servlet-name>
+ 		<servlet-class>com.demo_app.MyServlet</servlet-class>
+ 		
+ 		<init-param>
+ 			<param-name>name</param-name>
+ 			<param-value>Mubashir</param-value>
+ 		</init-param>
+ 	</servlet>
+ 	<servlet-mapping>
+ 		<servlet-name>hom</servlet-name>
+ 		<url-pattern>/home</url-pattern>
+ 	</servlet-mapping>
+ 	
+ 	<context-param>
+ 		<param-name>name</param-name>
+ 		<param-value>Abdullah</param-value>
+ 	</context-param>
+ 	
+ 	<context-param>
+ 		<param-name>phone</param-name>
+ 		<param-value>Redmi</param-value>
+ 	</context-param>  -->
+</web-app>
